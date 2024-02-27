@@ -1,0 +1,18 @@
+  {
+    "comando": "ota",
+    "server": "152.168.28.139",
+    "port": 3000,
+    "resource": "/firmware.bin",
+    "cellUpdate": 1  // 0=No actualizao por red celular.   1= Actualiza por red celular si es necesario
+  }   
+
+
+{
+  "comando": "reset"
+}
+
+{
+  "comando": "configWIFI",
+   "ssid": "test",
+   "pass": "testtest"
+}
